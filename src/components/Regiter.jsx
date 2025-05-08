@@ -10,7 +10,7 @@ const Register = ({ onFormSwitch }) => {
     e.preventDefault();
     
     try {
-      const response = await fetch('/register', {
+      const response = await fetch('https://node-why.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

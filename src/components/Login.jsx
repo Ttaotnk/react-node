@@ -9,7 +9,7 @@ const Login = ({ onFormSwitch }) => {
     e.preventDefault();
     
     try {
-      const response = await fetch('/login', {
+      const response = await fetch('https://node-why.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
