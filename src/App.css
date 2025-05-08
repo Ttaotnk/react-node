@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  color: black;
+  padding: 0x;
+  font-family: Arial, sans-serif; /* เพิ่มฟอนต์ให้ดูดีขึ้น */
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: rgb(106, 42, 165);
+  text-align: center;
+  margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่าง */
+}
+
+.Nav {
+  padding: 40px 25%;
+  margin: 0; /* ลบ margin เพื่อให้แน่ใจว่ามันอยู่ที่ด้านบน */
+  display: flex;
+  justify-content: center; /* จัดให้อยู่กลาง */
+  background-color: black;
+  color: bisque;
+ 
+  position: fixed;
+  font-size: 20px;
+  top: 0;
+  width: 100%; /* ทำให้ Nav bar เต็มความกว้าง */
+  z-index: 1000; /* ทำให้ Nav bar อยู่ด้านบนสุด */
+
+}
+
+.navlink {
+
+  margin: 20px;
+  padding: 20px 50px; /* ปรับ padding ให้เหมาะสม */
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  font-size: 20px;
+  z-index: 1000;
+  display: flex;
+  text-decoration: none;
+  color: bisque; /* เปลี่ยนสีตัวอักษรให้เข้ากับพื้นหลัง */
+  transition: background-color 0.3s; /* เพิ่มการเปลี่ยนแปลงเมื่อ hover */
+ 
+}
+
+.navlink:hover {
+  background-color: blueviolet; /* เปลี่ยนสีเมื่อ hover */
+}
+
+.Footer {
+  padding: 20px 25%;
+  margin: 0; /* ลบ margin เพื่อให้แน่ใจว่ามันอยู่ที่ด้านล่าง */
+  display: flex;
+  justify-content: center; /* จัดให้อยู่กลาง */
+  background-color: black;
+  color: bisque;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* ทำให้ Footer เต็มความกว้าง */
+  z-index: 1000; /* ทำให้ Footer อยู่ด้านล่างสุด */
+}
+
+.emty {
+  padding: 12%;
+  margin: 0; /* ลบ margin เพื่อให้แน่ใจว่ามันอยู่ที่ด้านล่าง */
+  display: flex;
+  justify-content: center; /* จัดให้อยู่กลาง */
+  width: 100%; /* ทำให้ Footer เต็มความกว้าง */
+ 
+}
+
+.box {
+  padding: 20px;
+  margin: 10px; 
+  display: flex;
+  justify-content: center; 
+  color: bisque;
+  border: none;
+  border-radius: 5px;
+ background-color: black;
+
+
+ 
+}
